@@ -4,45 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#673AB7"
     android:orientation="vertical"
-    tools:context="br.com.ifood.cursoandroid.ifood.activity.ConfiguracoesUsuarioActivity">
+    tools:context="br.com.fazenTech.cursoandroid.fazenTech.activity.ConfiguracoesUsuarioActivity">
 
     <include
         layout="@layout/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="#FF8046E8" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FF8046E8"
         android:orientation="vertical"
         android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF8046E8"
+            android:baselineAlignBottom="false"
+            android:visibility="visible"
+            app:srcCompat="@drawable/perfil"
+            tools:srcCompat="@drawable/perfil" />
 
         <EditText
             android:id="@+id/editUsuarioNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="@drawable/bg_edit_text"
             android:ems="10"
-            android:hint="Nome"
+            android:hint="Nome Completo"
             android:inputType="text"
-            android:padding="16dp" />
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/CPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="number|text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Data de Nascimento"
+            android:inputType="date|text"
+            android:padding="10dp" />
 
         <EditText
             android:id="@+id/editUsuarioEndereco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/bg_edit_text"
             android:ems="10"
             android:hint="Endereço completo"
             android:inputType="text"
-            android:padding="16dp" />
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editcep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="CEP"
+            android:inputType="number|text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editcidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Cidade"
+            android:inputType="text"
+            android:padding="10dp" />
+
+
 
         <Button
             android:id="@+id/buttonAcesso2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:onClick="validarDadosUsuario"
             android:padding="16dp"
             android:text="Salvar"

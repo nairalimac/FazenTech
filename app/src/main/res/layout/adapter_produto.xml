@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Sushi de salmão"
+        android:text="Morangos"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Salmão com nosso delicioso arroz temperado"
+        android:text="Informações sobre colheita e o produto"
         android:textSize="14sp" />
 
     <TextView

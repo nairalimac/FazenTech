@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Jamilton damasceno"
+        android:text="Naira Lima"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -18,7 +18,7 @@
         android:id="@+id/textPedidoEndereco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Endereço: rua almeida prado, 1300"
+        android:text="Endereço: Rua Paulista Avenu, 1300"
         android:textSize="14sp" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:id="@+id/textPedidoItens"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1) Filé Cinco Queijos (1 X R$ 16.50)"
+        android:text="1) Uvas da Safra 2000 (1 X R$ 16.50)"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:textStyle="bold" />

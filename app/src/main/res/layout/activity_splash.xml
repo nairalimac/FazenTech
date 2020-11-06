@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ea1d2c"
-    tools:context="br.com.ifood.cursoandroid.ifood.activity.SplashActivity">
+    android:background="#8046E8"
+    tools:context="br.com.fazenTech.cursoandroid.fazenTech.activity.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"

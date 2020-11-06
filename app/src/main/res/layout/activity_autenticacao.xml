@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ea1d2c"
+    android:background="#FF8046E8"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="br.com.ifood.cursoandroid.ifood.activity.AutenticacaoActivity">
+    tools:context="br.com.fazenTech.cursoandroid.fazenTech.activity.AutenticacaoActivity">
 
     <ImageView
         android:id="@+id/imageView2"
